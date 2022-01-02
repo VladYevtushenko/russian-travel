@@ -3,11 +3,8 @@
     line-height: 28px;
     font-weight: normal;
     padding-left: 0;
-    text-decoration: underline;
-    text-underline-position: under;
 }
 
 .header__lang-link_item:last-of-type {
     margin-left: 18px;
-    text-decoration: none;
 }

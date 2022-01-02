@@ -1,0 +1,9 @@
+.website {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 8px;
+    grid-area: website;
+    max-height: 152px;
+
+}

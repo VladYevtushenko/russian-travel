@@ -1,0 +1,12 @@
+.place {
+    padding: 0;
+    list-style: none;
+    max-width: 984px;
+    display: grid; 
+    grid-template-columns: 460px  484px;
+    grid-template-rows: max-content 460px;
+    grid-template-areas: 
+    "place__title website"
+    "place__image place__paragraph";
+    gap: 48px 40px; 
+}
