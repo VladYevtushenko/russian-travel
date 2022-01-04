@@ -18,4 +18,4 @@
 
 ---
 
-Ссылка на рабочую версию страницы: 
+Ссылка на рабочую версию страницы: https://vladyevtushenko.github.io/russian-travel/index.html
