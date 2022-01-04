@@ -1,9 +1,30 @@
 .photo-grid {
     list-style: none;
     padding: 0;
-    max-width: 100%;
+    max-width: 1184px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
-    gap: 15px 15px;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
     justify-content: center;
+}
+
+@media screen and (max-width: 1030px) {
+    .photo-grid {
+        max-width: 928px;
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .photo-grid {
+        max-width: 720px;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 622px) {
+    .photo-grid {
+        max-width: 288px;
+        gap: 12px;
+    }
 }

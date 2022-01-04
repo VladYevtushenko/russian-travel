@@ -1,6 +1,24 @@
 .intro {
     display: flex;
     flex-direction: column;
-    max-width: 690px;
-    align-items: flex-start;
+    max-width: 53.9%;
 }
+
+@media screen and (max-width: 1026px) {
+    .intro {
+        max-width: 67.4%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .intro {
+        max-width: 93.75%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        max-width: 90%;
+    }
+}
+

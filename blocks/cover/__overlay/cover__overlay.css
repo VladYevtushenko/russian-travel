@@ -46,7 +46,7 @@
     }
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 435px) {
     .cover__overlay {
       min-height: 200px;
       padding: 20px 16px;

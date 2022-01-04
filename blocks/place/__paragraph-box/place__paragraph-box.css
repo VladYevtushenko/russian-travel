@@ -1,0 +1,14 @@
+.place__paragraph-box {
+    grid-row: 2/-1;
+    grid-column: 2/3;
+    gap: 26px;
+}
+
+@media screen and (max-width: 766px) {
+    .place__paragraph-box {
+        grid-row: auto/auto;
+        grid-column: auto/auto;
+        gap: 25px;
+        padding: 0 16px;
+    }
+}

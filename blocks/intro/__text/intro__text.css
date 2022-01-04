@@ -5,3 +5,9 @@
     line-height: 26px;
     font-weight: normal;
 }
+
+@media screen and (max-width: 550px) {
+    .intro__text {
+        white-space: pre-line;
+    }
+}

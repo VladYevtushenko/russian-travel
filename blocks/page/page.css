@@ -8,4 +8,5 @@
   flex-direction: column;
   font-family:"Inter", "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
 }
