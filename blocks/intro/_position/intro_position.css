@@ -1,16 +1,16 @@
 .intro_position {
-    margin: 92px 442px 0 148px;
+    margin: 93px 442px 0 148px;
 }
 
 @media screen and (max-width: 1026px) {
     .intro_position {
-        margin: 92px 286px 0 48px;
+        margin: 93px 286px 0 48px;
     }
 }
 
 @media screen and (max-width: 770px) {
     .intro_position {
-        margin: 88px auto 0;
+        margin: 89px auto 0;
     }
 }
 

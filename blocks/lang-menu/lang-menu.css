@@ -2,11 +2,11 @@
     list-style: none;
     display: flex;
     padding: 0;
-    margin: 18px 0 6px 0;    
+    margin: 19px 0 6px 0;    
 }
 
 @media screen and (max-width: 360px) {
     .lang-menu {
-        margin: 14px 0 8px 0;
+        margin: 15px 0 8px 0;
     }
 }

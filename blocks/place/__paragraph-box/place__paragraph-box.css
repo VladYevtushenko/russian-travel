@@ -9,6 +9,6 @@
         grid-row: auto/auto;
         grid-column: auto/auto;
         gap: 25px;
-        padding: 0 16px;
+        padding: 0 17px 0 17px;
     }
 }

@@ -1,5 +1,5 @@
 .lead__subtitle {
-    margin: 32px auto 64px;
+    margin: 31px auto 64px;
     white-space: pre-line;
     align-self: center;
     text-align: center;
@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 450px) {
     .lead__subtitle {
-        margin-top: 16px;
+        margin-top: 15px;
         font-size: 16px;
         line-height: 20px;
     }

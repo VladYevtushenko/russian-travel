@@ -1,10 +1,10 @@
 .places_position {
-    margin: 91px auto 90px;
+    margin: 91px 156px 93px 140px;
 }
 
 @media screen and (max-width: 1279px) {
     .places_position {
-        margin: 92px auto 110px;
+        margin: 92px auto 112px;
     }
 }
 
@@ -16,6 +16,6 @@
 
 @media screen and (max-width: 424px) {
     .places_position {
-        margin: 62px auto 62px;
+        margin: 64px auto 64px;
     }
 }
