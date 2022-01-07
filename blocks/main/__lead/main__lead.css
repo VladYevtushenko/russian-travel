@@ -1,9 +1,9 @@
-.lead_position {
+.main__lead {
     margin: 56px auto 0 auto;
 }
 
 @media screen and (max-width: 1080px) {
-    .lead_position {
+    .main__lead {
         margin: 48px auto 0 auto;
     }
 }

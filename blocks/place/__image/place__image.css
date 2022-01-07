@@ -8,7 +8,6 @@
 
 @media screen and (max-width: 766px) {
     .place__image {
-        max-width: 100%;
         grid-row: auto/auto;
         grid-column: auto/auto;
     }

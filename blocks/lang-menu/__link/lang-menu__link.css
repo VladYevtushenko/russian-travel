@@ -7,10 +7,6 @@
     color: white;
 }
 
-.lang-menu__link:last-of-type {
-    margin-left: 18px;
-}
-
 @media screen and (max-width: 360px) {
     .lang-menu__link {
         font-size: 18px;
@@ -19,8 +15,3 @@
     }
 }
 
-@media screen and (max-width: 360px) {
-    .lang-menu__link:last-of-type {
-        margin-left: 18.7px;
-    }
-}

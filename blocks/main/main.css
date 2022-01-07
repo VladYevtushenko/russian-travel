@@ -1,0 +1,5 @@
+.main {
+    margin: o auto;
+    display: flex;
+    flex-direction: column;
+}

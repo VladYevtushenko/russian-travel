@@ -1,9 +1,9 @@
-.header_position {
+.page__header {
     margin: 28px auto 0 auto;
 }
 
 @media screen and (max-width: 360px) {
-    .header_position {
+    .page__header {
         margin: 16px auto 0 auto;
     }
 }

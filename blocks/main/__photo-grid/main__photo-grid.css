@@ -1,15 +1,15 @@
-.photo-grid_position {
+.main__photo-grid {
     margin: 92px auto 0;
 }
 
 @media screen and (max-width: 770px) {
-    .photo-grid_position {
+    .main__photo-grid {
         margin: 88px auto 0;
     }
 }
 
 @media screen and (max-width: 622px) {
-    .photo-grid_position {
+    .main__photo-grid {
         margin: 64px auto 0;
     }
 }
