@@ -32,3 +32,15 @@
         gap: 12px;
     }
 }
+
+@media screen and (max-width: 464px) {
+    .photo-grid {
+        max-width: 432px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .photo-grid {
+        max-width: 288px;
+    }
+}
