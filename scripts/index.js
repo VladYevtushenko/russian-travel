@@ -1,22 +1,18 @@
 import { images, popupViewImage, popupImage, popupImageTitle, popupCloseButton } from "./consts.js";
 
-const openedPopup = document.querySelector('.popup_opened');
-
-
 function openPopup(popupViewImage) {
     popupViewImage.classList.add('popup_opened');
     document.addEventListener('keydown', closeByEscapeBtn);
 }
 
 function closePopup() {
-    const openedPopup = document.querySelector('.popup_opened');
-
-    openedPopup.classList.remove('popup_opened');
+    popupViewImage.classList.remove('popup_opened');
     document.removeEventListener('keydown', closeByEscapeBtn);
 }
 
 function closeByEscapeBtn (evt) {
     if (evt.key === 'Escape') {
+        const openedPopup = document.querySelector('.popup_opened');
         closePopup(openedPopup);
     }
 }
